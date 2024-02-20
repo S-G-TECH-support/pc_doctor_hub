@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  color: #2f81f7;
+  font-family: "Lemon", serif;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.choose {
+  border: 3px solid #dfe8df;
+  max-width: 700px;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 30px;
+  padding: 5%;
+}
+
+.join_msg {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+}
+
+.radio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.radio_c {
+  position: relative;
+  border: 3px solid #edf2ed;
+  width: 48%;
+  /* Adjusted width for better responsiveness */
+  max-width: 250px;
+  height: 150px;
+  padding: 5%;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.radio_1:hover {
+  border-color: #108a00;
+}
+
+.radio_2:hover {
+  border-color: #108a00;
+}
+
+.radio-input[type="radio"] {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.box_img {
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.meg {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.choose_btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 100%; /* Adjusted width for better responsiveness */
+  border: 5px solid #e4ebe4;
+  background-color: #e4ebe4;
+  color: white;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer {
+  position: relative;
+  border: 3px solid #001e00;
+  height: 150px;
+  margin-left: 20px;
+  width: 97%;
+  padding: 5px;
+  background-color: #001e00;
+  margin-top: 10%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.follow {
+  position: absolute;
+  display: flex;
+  /* border: 2px solid red; */
+  height: 80px;
+  width: 90%;
+  padding: 10px;
+  bottom: 30%;
+  justify-content: space-between;
+}
+.follow_container {
+  /* border: 3px solid green; */
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.follow_mg {
+  /* position: absolute; */
+  font-family: "Salsa", cursive;
+  bottom: 10px;
+  color: white;
+  margin-top: 6px;
+}
+.fa-brands {
+  border: 1px solid white;
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
+  color: white;
+  border-radius: 50%;
+  padding: 9px;
+  cursor: pointer;
+  /* border: none; */
+  text-align: center;
+  margin-left: 4px;
+}
+.face:hover {
+  background-color: #1e5799;
+  border-color: #1e5799;
+}
+.insta:hover {
+  background-color: #dd2a53;
+  border-color: #dd2a53;
+}
+.twi:hover {
+  background-color: #24a4f2;
+  border-color: #24a4f2;
+}
+.you:hover {
+  background-color: #ff0808;
+  border-color: #ff0808;
+}
+.link_1:hover {
+  background-color: #087bb6;
+  border-color: #087bb6;
+}
+.download {
+  width: 15%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.copywrite {
+  display: flex;
+  /* border: 3px solid red; */
+  width: 70%;
+  margin-top: 20px;
+  height: 20px;
+  justify-content: space-between;
+}
+.copy {
+  font-family: "Salsa", cursive;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.copy:hover {
+  color: #1e5799;
+}
